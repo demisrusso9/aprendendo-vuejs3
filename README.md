@@ -1,4 +1,4 @@
-# bugger-orders-vuejs
+# learning-vue3
 
 ## Project setup
 ```
