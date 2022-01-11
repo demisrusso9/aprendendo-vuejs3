@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main class="bg-gray-100 h-screen flex flex-col flex-1 p-3 mx-auto">
+    <Watch />
+  </main>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script lang="ts" setup>
+  import Array from './components/Array.vue'
+  import CompositionAPI from './components/learn/CompositionAPI.vue'
+  import Computed from './components/learn/Computed.vue'
+  import ExperienceBar from './components/ExperienceBar.vue'
+  import Form from './components/Form.vue'
+  import Info from './components/Info.vue'
+  import LifeCycle from './components/LifeCycle.vue'
+  import ListVfor from './components/ListVfor.vue'
+  import Picture from './components/Picture.vue'
+  import Reactive from './components/Reactive.vue'
+  import TestingProps from './components/TestingProps.vue'
+  import Watch from './components/learn/Watch.vue'
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<!-- export default {
+    name: 'Form',
+    data() {
+      return {
+        title: 'Form',
+        name: 'Demis',
+        inputName: ''
+      }
+    }
+  } -->
