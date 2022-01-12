@@ -2,7 +2,7 @@
   <main
     class="bg-gray-100 h-screen flex flex-col flex-1 items-center justify-center p-3 mx-auto"
   >
-    <Watch />
+    <Emits />
   </main>
 </template>
 
@@ -19,4 +19,5 @@
   import Reactive from './components/Reactive.vue'
   import TestingProps from './components/TestingProps.vue'
   import Watch from './components/learn/Watch.vue'
+  import Emits from './components/learn/Emits.vue'
 </script>

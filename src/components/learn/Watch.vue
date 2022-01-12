@@ -26,6 +26,14 @@
     msg.value = 'watchEffect'
   })
 
+  watch(
+    [msg.value],
+    (val) => {
+      msg.value = 'propriedade immediate: true'
+    },
+    { immediate: true }
+  )
+
   // Watching One value
   watch([count], (val) => {
     msg.value = `Watch 1 (count) ${val}`
