@@ -1,5 +1,7 @@
 <template>
-  <main class="bg-gray-100 h-screen flex flex-col flex-1 p-3 mx-auto">
+  <main
+    class="bg-gray-100 h-screen flex flex-col flex-1 items-center justify-center p-3 mx-auto"
+  >
     <Watch />
   </main>
 </template>
@@ -18,14 +20,3 @@
   import TestingProps from './components/TestingProps.vue'
   import Watch from './components/learn/Watch.vue'
 </script>
-
-<!-- export default {
-    name: 'Form',
-    data() {
-      return {
-        title: 'Form',
-        name: 'Demis',
-        inputName: ''
-      }
-    }
-  } -->
