@@ -12,8 +12,7 @@
   */
 
   function showInformation(event: InputEvent) {
-    console.log('EMITS?')
-    console.log(event)
+    console.warn(`coming from Component EmitsChild: ${event}`)
   }
 
   const teste = () => console.log('teste')
@@ -22,7 +21,7 @@
 <template>
   <section>
     <EmitsChild @information="showInformation" />
-    <EmitsChild @click="teste" />
-    <!-- <EmitsChild @click="showInformation" /> Error -->
+    <!-- <EmitsChild @click="teste" /> -->
+    <!-- <EmitsChild @click="showInformation($event.)" /> -->
   </section>
 </template>

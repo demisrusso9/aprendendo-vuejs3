@@ -23,6 +23,8 @@
 
   // Always Runs on init
   watchEffect(() => {
+    console.log('watchEffect')
+
     msg.value = 'watchEffect'
   })
 
